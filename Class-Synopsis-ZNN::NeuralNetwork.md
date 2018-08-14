@@ -34,4 +34,4 @@ Performs the Backpropagation algorithm, returns the total error of the neural ne
 Sets the learning rate of the backpropagation algorithm.
 
 ### void setNormalization (Normalization normalizationObject)
-Sets the Normalization function of the layers. Takes in a [Normalization Object]()
+Sets the Normalization function of the layers. Takes in a [Normalization Object](https://github.com/Wittmaxi/ZENeural/wiki/Class-Synopsis-ZNN::Normalization--floatType-)
