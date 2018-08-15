@@ -11,11 +11,11 @@ Truth table:
 * 0 XOR 0: 0
 
 
-### Why use XOR for a neural Network?
+### Why Use XOR For a Neural Network?
 XOR is a non-linearly separable problem: you cannot draw one single line to separate the two solutions!
 Thus, we need at the very least a Neural Network with one Hidden Layer.
 
-## The basic Network
+## The Basic Network
 
 Let's create a Network like this:
 ```C++
@@ -88,9 +88,9 @@ We can now use this class like this:
 
 ```C++
 int main () {
-xorWrapper NN{};
-NN.train(100);
-/*ask for two numbers and put them into a vector called userInput*/
-std::cout << NN.xorNN.guess(userInput)[0];
+	xorWrapper NN{};
+	NN.train(100);
+	/*ask for two numbers and put them into a vector called userInput*/
+	std::cout << NN.xorNN.guess(userInput)[0];
 }
 ```
